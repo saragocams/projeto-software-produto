@@ -50,4 +50,4 @@ jobs:
         script: |
           docker stop produto
           docker rm --force produto
-          docker run -d -p 8282:8282 --name produto --network=rede saragocams/produto-ci:${{ github.sha }}
+          docker run -d -p 8082:8082 --name produto --network=rede saragocams/produto-ci:${{ github.sha }}
