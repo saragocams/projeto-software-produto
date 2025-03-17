@@ -1,4 +1,4 @@
-package br.insper.produto.produto;
+package br.insper.produto.produto.produto;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

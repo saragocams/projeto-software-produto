@@ -1,4 +1,4 @@
-package br.insper.produto.produto;
+package br.insper.produto.produto.produto;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;

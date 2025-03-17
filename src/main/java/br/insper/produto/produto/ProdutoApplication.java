@@ -1,4 +1,4 @@
-package br.insper.produto;
+package br.insper.produto.produto;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

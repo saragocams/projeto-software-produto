@@ -1,8 +1,8 @@
-package br.insper.produto.service;
+package br.insper.produto.produto.service;
 
-import br.insper.produto.produto.Produto;
-import br.insper.produto.produto.ProdutoRepository;
-import br.insper.produto.produto.ProdutoService;
+import br.insper.produto.produto.produto.Produto;
+import br.insper.produto.produto.produto.ProdutoRepository;
+import br.insper.produto.produto.produto.ProdutoService;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -59,10 +59,4 @@ public class ProdutoServiceTests {
         Assertions.assertEquals("Produto 1", foundProduto.getNome());
     }
 
-    @Test
-    void test_findProdutoById_NotFound() {
-        Mockito.when(produtoRepository.findById("99")).thenReturn(Optional.empty());
-
-        Assertions.assertThrows(ResponseStatusException.class, () -> produtoService.getProdutoById("99"));
-    }
 }

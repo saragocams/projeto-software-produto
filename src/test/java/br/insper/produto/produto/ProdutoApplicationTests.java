@@ -1,4 +1,4 @@
-package br.insper.produto;
+package br.insper.produto.produto;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

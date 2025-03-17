@@ -1,7 +1,7 @@
-package br.insper.produto.controller;
-import br.insper.produto.produto.Produto;
-import br.insper.produto.produto.ProdutoController;
-import br.insper.produto.produto.ProdutoService;
+package br.insper.produto.produto.controller;
+import br.insper.produto.produto.produto.Produto;
+import br.insper.produto.produto.produto.ProdutoController;
+import br.insper.produto.produto.produto.ProdutoService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
