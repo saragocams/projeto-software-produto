@@ -35,7 +35,6 @@ jobs:
           min-coverage-overall: 50
           min-coverage-changed-files: 50
 
-
       - name: Gerar Badge de Cobertura
         uses: cicirello/jacoco-badge-generator@v2
         with:
